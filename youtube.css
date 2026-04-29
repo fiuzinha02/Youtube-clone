@@ -102,6 +102,7 @@ iframe {
   height: auto;
   border-radius: 12px;
   aspect-ratio: 16/9;
+  max-width: 100%;
 }
 .canal {
   border-radius: 100%;
@@ -114,8 +115,9 @@ iframe {
   align-items: center;
   gap: 10px;
 }
-.cala {
+.canal-info {
   display: flex;
+  align-items: center;
   gap: 10px;
 }
 .info {
@@ -143,9 +145,10 @@ iframe {
   font-size: 14px;
   font-weight: 500;
   cursor: pointer;
+  background-color: #f1f1f1;
 }
 .canal-dd button:hover {
-  background-color: #aaa;
+  background-color: #ddd;
 }
 .botao {
   display: flex;
@@ -155,6 +158,7 @@ iframe {
   background-color: #262626;
   padding: 10px;
   border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 @media (max-width: 768px) {
   main {
@@ -163,6 +167,9 @@ iframe {
     margin-left: 0;
     margin-top: 40px;
     flex-direction: column;
+  }
+  .pesquisar {
+    width: 100%;
   }
   iframe {
     width: 100%;
