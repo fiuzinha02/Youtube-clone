@@ -1,0 +1,14 @@
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 2000px;
+}
+.video-card {
+  display: flex;
+  flex-direction: column;
+}
+.video-card img {
+  width: 500px;
+  height: auto;
+}
