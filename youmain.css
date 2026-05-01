@@ -9,6 +9,32 @@ main {
   flex-direction: column;
 }
 .video-card img {
-  width: 500px;
+  width: 400px;
   height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.video-card:hover {
+  background-color: #262626;
+  border-radius: 10px;
+}
+.categoria {
+  flex-direction: row;
+  width: 10px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-direction: row;
+}
+.categoria button {
+  border: none;
+  color: #aaa;
+  font-size: 14px;
+  cursor: pointer;
 }
