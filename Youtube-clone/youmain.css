@@ -6,7 +6,8 @@ main {
 }
 
 .video-card img {
-  width: 400px;
+  width: 100%;
+  aspect-ratio: 16 / 9;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
@@ -54,11 +55,7 @@ section {
   gap: 10px;
   cursor: pointer;
 }
-.video-card a img {
-  width: 450px;
-  height: auto;
-  border-radius: 8px;
-}
+
 .video-info {
   display: flex;
   flex-direction: row;

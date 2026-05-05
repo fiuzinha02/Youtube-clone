@@ -183,8 +183,9 @@ aside {
   cursor: pointer;
 }
 .video-card img {
-  width: 168px;
-  height: 94px;
+  width: 50%;
+  aspect-ratio: 16 / 9;
+  height: auto;
   border-radius: 8px;
   object-fit: cover;
 }
